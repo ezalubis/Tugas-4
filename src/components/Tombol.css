@@ -1,0 +1,19 @@
+.button {
+    background-color: blue;
+    color: white;
+    height: 32px;
+    border: none;
+    padding-inline: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: green;
+    }
+  
+    &:disabled {
+      pointer-events: none;
+      background-color: gray;
+    }
+  }
+  
